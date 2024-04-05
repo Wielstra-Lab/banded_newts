@@ -1,2 +1,8 @@
-# banded_newts
-Scripts used in the following study by Kalaentzis et al. 'Phylogenomics resolves the ancient and rapid radiation of banded newts (genus Ommatotriton)' (2024) - DOI to come
+# Phylogenomics resolves the ancient and rapid radiation of banded newts (genus Ommatotriton)
+---
+
+The team: Konstantinos Kalaentzis, Stephanie Koster, Jan W. Arntzen, Sergé Bogaerts, James France, Michael Franzen, Christos Kazilas, Spartak N. Litvinchuk, Kurtuluş Olgun, Manon de Visser, Ben Wielstra
+
+---
+# 1 Pipeline steps
+*All scripts used are found in the scripts folder, in the order in which they should be executed*
