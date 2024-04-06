@@ -1,0 +1,16 @@
+sample.id	sample.number	pop.code	sp.code	cat.code
+ISVIT1	Ommatotriton_vittatus	Vittatus	Vittatus
+NES007	Ommatotriton_nesterovi	Nesterovi	Nesterovi
+NES031	Ommatotriton_nesterovi	Nesterovi	Nesterovi
+NES172	Ommatotriton_nesterovi	Nesterovi	Nesterovi
+NES206	Ommatotriton_nesterovi	Nesterovi	Nesterovi
+NES581	Ommatotriton_nesterovi	Nesterovi	Nesterovi
+OPH299	Ommatotriton_ophryticus	Ophryticus	Ophryticus
+OPH377	Ommatotriton_ophryticus	Ophryticus	Ophryticus
+OPH491	Ommatotriton_ophryticus	Ophryticus	Ophryticus
+OPH676	Ommatotriton_ophryticus	Ophryticus	Ophryticus
+OPH690	Ommatotriton_ophryticus	Ophryticus	Ophryticus
+VIT610	Ommatotriton_vittatus	Vittatus	Vittatus
+VIT612	Ommatotriton_vittatus	Vittatus	Vittatus
+VIT619	Ommatotriton_vittatus	Vittatus	Vittatus
+VIT654	Ommatotriton_vittatus	Vittatus	Vittatus
