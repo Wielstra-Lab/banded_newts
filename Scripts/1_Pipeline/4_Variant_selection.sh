@@ -15,4 +15,4 @@ module load VCFtools
 
 vcftools --vcf OmmatotritonOutgroups_Exchet.vcf --max-missing 0.5 --remove-indels --minQ 20 --recode --recode-INFO-all --out OmmaOut_filtered
 
-perl /data1/s2321041/Ommatotriton/RAxML/4_subsampleVCF.pl OmmaOut_filtered.recode.vcf OmmaOut_SNPs_Subset.vcf
+perl /data1/s2321041/Ommatotriton/Scripts/4_subsampleVCF.pl OmmaOut_filtered.recode.vcf OmmaOut_SNPs_Subset.vcf
