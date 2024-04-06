@@ -18,4 +18,4 @@ module load SAMtools
 module load BWA
 module load picard
 
-perl /data1/s2321041/Ommatotriton/Scripts/Master_BQSR.pl
+perl /data1/s2321041/Ommatotriton/Scripts/1_Master_BQSR.pl
