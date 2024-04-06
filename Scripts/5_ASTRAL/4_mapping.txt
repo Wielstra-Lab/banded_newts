@@ -1,0 +1,6 @@
+Triturus_marmoratus:1995Tm,5017Tm,7781Tm
+Triturus_macedonicus:3247Ta,3275Ta,3775Ta
+Triturus_carnifex:292Tca,312Tca,405Tca
+Ommatotriton_nesterovi:NES007,NES031,NES172,NES206,NES581
+Ommatotriton_ophryticus:OPH299,OPH377,OPH491,OPH676,OPH690
+Ommatotriton_vittatus:ISVIT1,VIT610,VIT612,VIT619,VIT654
