@@ -14,8 +14,8 @@ cd /data1/s2321041/Ommatotriton/
 
 module load skewer
 module load VCFtools
-module load SAMtools
 module load BWA
+module load SAMtools
 module load picard
 
 perl /data1/s2321041/Ommatotriton/Scripts/1_Master_BQSR.pl
