@@ -72,7 +72,7 @@ First, install treePL if you don't already have it. I installed it via Conda.
 
 TreePL needs three things to make a dated phylogeny with confidence intervals; (a) calibration point(s), a bestTree without bootstap values (obtained from the previous step) and bootstrap replicates with the same topology as this bestTree. If the topology is different, the confidence intervals will become very wide and useless. To obtain the bootstrap replicates, rerun RAxML, but constrain the outgroup this time (see script in the treePL folder). For a less complex outgroup, constraining via a starting tree may work, but in our case it only put one of the Triturus species as outgroup when we tried that.
 
-Before actually inferring a dated tree, priming analyses need to be run ........
+Before actually inferring a dated tree, priming analyses need to be run. Add the number of distinct alignment patterns and the calibration points to the treePL file. Comment out the line referring to the bootstrap trees, 
 
 
 
