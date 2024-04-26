@@ -11,4 +11,4 @@
 
 cd /data1/s2321041/Ommatotriton/Phylonet/
 
-java -jar /data1/s2321041/PhyloNet.jar Omma1.tree > ret1.out1.txt
+java -jar /data1/s2321041/PhyloNet.jar OmmaAll1.tree > ret1.out1.txt
