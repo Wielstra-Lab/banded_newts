@@ -33,7 +33,8 @@ Run 3_HWE.sh on both of the VCF files from the previous step, don't forget to gi
   
 <summary> 2_PCA </summary>
 
-### To come
+### Principal Component Analysis
+Download the combined .g.vcf file without outgroups and its corresponding index file. You also need to prepare a file with sample names/codes, and the group they correspond to, in order to color the dots in the PCA by species. Follow the steps in PCA.R.
 
    </details>
 
@@ -43,8 +44,22 @@ Run 3_HWE.sh on both of the VCF files from the previous step, don't forget to gi
   
 <summary> 3_RAxML </summary>
 
-### To come
+### Maximum-Likelihood inference in RAxML
 
+Take the 0.5 missing data .recode.vcf with outgroups from the Pipeline step, and (optionally) copy this to a new folder for RAxML. Run the Python 3 script vcf2phylip.py (https://zenodo.org/doi/10.5281/zenodo.1257057), after starting a Python 3 module if required;
+
+  ```
+  module load Python3
+  python3 vcf2phylip.py -i OmmatotritonOut0.5.recode.vcf
+  ```
+
+Then, remove invariant sites from the data by running the Python3 script ascbias.py (https://github.com/btmartin721/raxml_ascbias) on the phylip file you obtained from the previous script;
+
+  ```
+  python3 ascbias.py -p OmmatotritonOut0.5.min4.phy
+  ```
+
+The output file will be called out.phy (by default, you can give it a custom name when running ascbias.py). Run RAxML.sh on this file. After this has finished running, open the bipartitions file in FigTree and reroot the tree on the branch between Triturus and Ommatotriton to obtain the RAxML tree with bootstrap values. Do the same for the bestTree to get one of the input files for TreePL.
 
    </details>
 
@@ -52,7 +67,13 @@ Run 3_HWE.sh on both of the VCF files from the previous step, don't forget to gi
   
 <summary> 4_treePL </summary>
 
-### To come
+### Dated phylogeny in TreePL
+First, install treePL if you don't already have it. I installed it via Conda.
+
+TreePL needs three things to make a dated phylogeny with confidence intervals; (a) calibration point(s), a bestTree without bootstap values (obtained from the previous step) and bootstrap replicates with the same topology as this bestTree. If the topology is different, the confidence intervals will become very wide and useless. To obtain the bootstrap replicates, rerun RAxML, but constrain the outgroup this time (see script in the treePL folder). For a less complex outgroup, constraining via a starting tree may work, but in our case it only put one of the Triturus species as outgroup when we tried that.
+
+Before actually inferring a dated tree, priming analyses need to be run ........
+
 
 
    </details>
