@@ -9,7 +9,7 @@
 #SBATCH --error=error_output_%j.txt
 #SBATCH --job-name=snapper_ommaOut16
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=stephaniekoster222@gmail.com
+#SBATCH --mail-user=kostersca@vuw.leidenuniv.nl
 
 cd /data1/s2321041/Ommatotriton/Snapper/
 
