@@ -7,7 +7,7 @@
 #SBATCH --error=error_output_%j.txt
 #SBATCH --job-name=ASTRAL_RAxML
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=stephaniekoster222@gmail.com
+#SBATCH --mail-user=kostersca@vuw.leidenuniv.nl
 
 ## Bash Script to loop RAxML script
 
