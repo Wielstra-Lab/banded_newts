@@ -7,7 +7,7 @@
 #SBATCH --time=2-00:00:00
 #SBATCH --job-name=RAxML_Ommatotriton
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=stephaniekoster222@gmail.com
+#SBATCH --mail-user=kostersca@vuw.leidenuniv.nl
 
 ###Ortiz, E.M. 2019. vcf2phylip v2.0: convert a VCF matrix into several matrix formats for phylogenetic analysis. DOI:10.5281/zenodo.2540861
 ###ascbias.py: https://github.com/btmartin721/raxml_ascbias
